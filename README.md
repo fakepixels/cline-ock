@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# OnchainKit Demo, built with Cline
+
+![OnchainKit Demo](public/demo.gif)
+
+This project demonstrates the integration of [OnchainKit](https://onchainkit.xyz/) with Next.js, featuring wallet integration, onramp functionality, and a modern UI using Geist font. The app is built on [Base](https://base.org/) and uses [Cline](https://cline.bot/), the #1 AI coder. 
+
+## Features
+
+- 🔐 **Wallet Integration**: Connect with Coinbase Wallet on Base 
+- 💰 **Crypto Onramp**: Built-in fiat-to-crypto onramp functionality
+- 🎨 **Modern UI**: Styled with Tailwind CSS 
+- ⚡ **Fast Development**: Built on Next.js 14 with App Router
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+1. Get your Client API Key from [Coinbase Developer Platform](https://docs.onchainkit.xyz/getting-started#get-your-client-api-key)
+2. Create a `.env` file in the root directory:
+
+```env
+NEXT_PUBLIC_ONCHAINKIT_API_KEY=YOUR_CLIENT_API_KEY
+NEXT_PUBLIC_ONCHAINKIT_PROJECT_ID=YOUR_PROJECT_ID
+```
+
+### Installation
 
 ```bash
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `app/providers.tsx`: Configuration for OnchainKit, Wagmi, and React Query providers
+- `app/page.tsx`: Main landing page with wallet integration and onramp
+- `app/layout.tsx`: Root layout with Geist font configuration
+- `tailwind.config.ts`: Tailwind CSS configuration including Geist font families
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [OnchainKit Documentation](https://onchainkit.xyz/)
+- [Cline](https://cline.bot/)
+- [Base Network](https://docs.base.org/)
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
