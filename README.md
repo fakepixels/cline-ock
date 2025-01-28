@@ -1,15 +1,4 @@
-# OnchainKit Demo, built with Cline
-
-![OnchainKit Demo](public/demo.gif)
-
-This project demonstrates the integration of [OnchainKit](https://onchainkit.xyz/) with Next.js, featuring wallet integration, onramp functionality, and a modern UI using Geist font. The app is built on [Base](https://base.org/) and uses [Cline](https://cline.bot/), the #1 AI coder. 
-
-## Features
-
-- 🔐 **Wallet Integration**: Connect with Coinbase Wallet on Base 
-- 💰 **Crypto Onramp**: Built-in fiat-to-crypto onramp functionality
-- 🎨 **Modern UI**: Styled with Tailwind CSS 
-- ⚡ **Fast Development**: Built on Next.js 14 with App Router
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
