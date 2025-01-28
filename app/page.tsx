@@ -33,8 +33,8 @@ export default function Home() {
               assetSymbol="ETH"
               country="US"
               currency="USD"
-              headerText="Purchase Ethereum"
-              buttonText="Buy ETH"
+              headerText="Buy ETH"
+              buttonText="Buy"
             />
           </div>
 
