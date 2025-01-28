@@ -1,0 +1,22 @@
+{
+  "welcome": "欢迎使用 Base",
+  "hero_description": "在 Base 上体验去中心化应用的未来。",
+  "need_crypto": "需要加密货币？",
+  "get_started": "使用我们安全的入金通道，直接在应用中开始加密货币之旅。",
+  "buy_eth": "购买 ETH",
+  "buy": "购买",
+  "features": {
+    "wallet": {
+      "title": "智能钱包",
+      "description": "连接您的 Coinbase 钱包，享受无缝体验"
+    },
+    "base": {
+      "title": "Base",
+      "description": "基于 Base 构建，实现最佳开发体验"
+    },
+    "onchainkit": {
+      "title": "OnchainKit",
+      "description": "由 Coinbase 的 OnchainKit 提供强大功能支持"
+    }
+  }
+}

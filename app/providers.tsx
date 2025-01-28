@@ -6,6 +6,7 @@ import { coinbaseWallet } from 'wagmi/connectors';
 import { OnchainKitProvider } from '@coinbase/onchainkit';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import type { ReactNode } from 'react';
+import { LanguageProvider } from './contexts/language-context';
 
 const wagmiConfig = createConfig({
   chains: [baseSepolia],
@@ -24,7 +25,8 @@ const queryClient = new QueryClient();
 
 export function Providers(props: { children: ReactNode }) {
   return (
-    <WagmiProvider config={wagmiConfig}>
+    <LanguageProvider>
+      <WagmiProvider config={wagmiConfig}>
       <QueryClientProvider client={queryClient}>
         <OnchainKitProvider
           apiKey={process.env.NEXT_PUBLIC_ONCHAINKIT_API_KEY}
@@ -35,5 +37,6 @@ export function Providers(props: { children: ReactNode }) {
         </OnchainKitProvider>
       </QueryClientProvider>
     </WagmiProvider>
+    </LanguageProvider>
   );
 }

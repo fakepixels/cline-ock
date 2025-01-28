@@ -1,0 +1,22 @@
+{
+  "welcome": "Welcome to Base",
+  "hero_description": "Experience the future of decentralized applications on Base.",
+  "need_crypto": "Need Crypto?",
+  "get_started": "Get started with crypto directly in the app using our secure onramp.",
+  "buy_eth": "Buy ETH",
+  "buy": "Buy",
+  "features": {
+    "wallet": {
+      "title": "Smart Wallet",
+      "description": "Connect with your Coinbase Wallet for a seamless experience"
+    },
+    "base": {
+      "title": "Base",
+      "description": "Built on Base for optimal development"
+    },
+    "onchainkit": {
+      "title": "OnchainKit",
+      "description": "Powered by Coinbase's OnchainKit for robust functionality"
+    }
+  }
+}
