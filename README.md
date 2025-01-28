@@ -1,4 +1,7 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# OnchainKit Demo, built with Cline
+![OnchainKit Demo](public/demo.gif)
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app). Built on [Base](https://base.org/) and uses [Cline](https://cline.bot/), the #1 AI coder.
 
 ## Getting Started
 
